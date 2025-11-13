@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RebootNP | AI, Fashion & Impact Hub</title>
+    <meta name="description" content="RebootNP — A digital hub connecting AI, automation, fashion, and social impact. Build smarter projects from Nepal to the world." />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+
+    <!-- NAVBAR -->
+    <header class="bg-white shadow sticky top-0 z-50">
+      <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        <h1 class="text-2xl font-bold text-indigo-600">Reboot<span class="text-gray-900">NP</span></h1>
+        <div class="hidden md:flex space-x-6">
+          <a href="#about" class="hover:text-indigo-600">About</a>
+          <a href="#projects" class="hover:text-indigo-600">Projects</a>
+          <a href="#resources" class="hover:text-indigo-600">Resources</a>
+          <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="max-w-7xl mx-auto text-center py-24 px-6">
+      <h2 class="text-4xl md:text-6xl font-bold mb-6 text-gray-900">Building the Future with <span class="text-indigo-600">AI, Fashion & Impact</span></h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+        RebootNP unites AI innovation, creative commerce, and social purpose — from smart tools to ethical ventures. 
+      </p>
+      <a href="#projects" class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition">Explore Projects</a>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="bg-white py-20">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-semibold mb-6">About RebootNP</h3>
+        <p class="text-gray-600 leading-relaxed max-w-3xl mx-auto">
+          RebootNP started as an experiment in AI video and automation. Today, it’s a growing ecosystem blending 
+          digital technology, fashion entrepreneurship, and social impact. We design, automate, and inspire — connecting 
+          innovation with community purpose.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <h3 class="text-3xl font-semibold text-center mb-12">Projects & Ventures</h3>
+
+        <div class="grid md:grid-cols-3 gap-10">
+          <!-- AI Tools -->
+          <div class="bg-white shadow rounded-2xl p-6 hover:shadow-lg transition">
+            <h4 class="text-xl font-bold text-indigo-600 mb-3">AI Tools & Automation</h4>
+            <p class="text-gray-600 mb-4">
+              From the Fashion Editor to Nepali Transcriber — practical AI tools designed for creators, stores, and media teams.
+            </p>
+            <a href="#" class="text-indigo-600 font-medium hover:underline">Learn More →</a>
+          </div>
+
+          <!-- Clothing -->
+          <div class="bg-white shadow rounded-2xl p-6 hover:shadow-lg transition">
+            <h4 class="text-xl font-bold text-indigo-600 mb-3">Reboot Wear (Clothing Store)</h4>
+            <p class="text-gray-600 mb-4">
+              A fusion of comfort and creativity. Curated apparel from Nepal, shipped locally through trusted partners.
+            </p>
+            <a href="#" class="text-indigo-600 font-medium hover:underline">Visit Store →</a>
+          </div>
+
+          <!-- Social Impact -->
+          <div class="bg-white shadow rounded-2xl p-6 hover:shadow-lg transition">
+            <h4 class="text-xl font-bold text-indigo-600 mb-3">Community & Sponsors</h4>
+            <p class="text-gray-600 mb-4">
+              Partnering with rehab centers and local initiatives to support recovery and self-growth. Building better futures together.
+            </p>
+            <a href="#" class="text-indigo-600 font-medium hover:underline">Our Partners →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESOURCES SECTION -->
+    <section id="resources" class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-semibold mb-6">Products & Resources</h3>
+        <p class="text-gray-600 mb-10 max-w-3xl mx-auto">
+          Access guides, templates, and automation workflows to help you build AI-powered projects and creative businesses.
+        </p>
+        <a href="#" class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition">Explore Resources</a>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="bg-gray-100 py-20">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-semibold mb-6">Contact</h3>
+        <p class="text-gray-600 mb-10">Got a collaboration idea or want to join RebootNP projects? Let’s connect.</p>
+        <a href="mailto:rebootnp@gmail.com" class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-indigo-700 transition">Email Us</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-6">
+      <p>© <span id="year"></span> RebootNP. Built with AI, creativity & purpose.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
